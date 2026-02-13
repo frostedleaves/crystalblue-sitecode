@@ -5,7 +5,7 @@ a tiny, text-first blog.
 
 ## 🧊 what this is
 
-this repo powers the crystalblue blog.
+this repo powers the [crystalblue](https://crystalblue.pages.dev/) blog.
 
 it is a simple static site generated with Hugo and deployed via Cloudflare Pages.
 
