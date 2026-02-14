@@ -1,0 +1,150 @@
+:root { color-scheme: light; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: #f3efe8;
+  color: #141414;
+
+  font-family: "EB Garamond", "Garamond", "Cormorant Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+
+  font-size: 18px;
+  line-height: 1.75;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.page { min-height: 100%; }
+
+.wrap {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* header */
+
+.sitehead { padding: 3.25rem 0 2.5rem; }
+.headwrap { text-align: center; }
+
+.brandlink {
+  font-family: inherit;
+  font-size: 3.2rem;
+  line-height: 1.05;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+}
+
+.tagline {
+  margin-top: 0.6rem;
+  font-size: 1.05rem;
+  opacity: 0.75;
+}
+
+.nav {
+  margin-top: 1.4rem;
+  display: inline-flex;
+  gap: 2rem;
+  justify-content: center;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.25px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.6;
+}
+
+.navlink:hover { opacity: 0.85; }
+
+/* main content */
+
+main.wrap { padding-bottom: 5rem; }
+
+.tease { margin: 0 0 4.25rem; }
+
+.teasetitle,
+.posttitle {
+  margin: 0 0 0.35rem;
+  font-size: 2.25rem;
+  line-height: 1.12;
+  font-weight: 650;
+
+  font-family: inherit;
+}
+
+.teasetitle a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.date {
+  margin: 0 0 1.6rem;
+  font-size: 1.05rem;
+  opacity: 0.65;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.summary { font-size: 1.1rem; }
+
+.more {
+  display: inline-block;
+  margin-top: 1.4rem;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.55;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.more:hover { opacity: 0.85; }
+
+.content p { margin: 1.1rem 0; }
+
+.content a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
+.content h2,
+.content h3 {
+  margin: 2.25rem 0 0.75rem;
+  line-height: 1.2;
+}
+
+/* contact page */
+
+.content a + a { margin-left: 0.5rem; }
+.content a:hover { opacity: 0.8; }
+
+/* footer */
+
+.sitefoot {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 3rem 0;
+  margin-top: 4rem;
+}
+
+.footwrap {
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.6;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+               "Inter", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.15px;
+}
+
+.footwrap p { margin: 0.4rem 0; }

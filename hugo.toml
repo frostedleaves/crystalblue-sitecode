@@ -1,0 +1,12 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "crystalblue"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  tagline = ""
+  nav = [
+    { name = "who is this?", url = "/about/" },
+    { name = "contact", url = "/contact/" },
+  ]

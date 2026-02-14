@@ -1,0 +1,18 @@
+<header class="sitehead">
+  <div class="wrap headwrap">
+    <div class="brand">
+      <a class="brandlink" href="{{ "/posts/" | relURL }}">{{ site.Title }}</a>
+      {{ with site.Params.tagline }}{{ if ne . "" }}
+        <div class="tagline">{{ . }}</div>
+      {{ end }}{{ end }}
+    </div>
+
+    {{ with site.Params.nav }}
+    <nav class="nav">
+      {{ range . }}
+        <a class="navlink" href="{{ .url | relURL }}">{{ .name }}</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+  </div>
+</header>
